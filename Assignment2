@@ -54,11 +54,11 @@ public class Assignment2 {
         //write your code here
     	double sst;
     	if(employee.salary > 8900) {
-    		sst = 6.2 / 100 * 106800;
-    		System.out.println(sst);// return 之前
+    		sst = 6.2 / 100.0 * 106800;
+    		System.out.println(sst);
     		return sst;	
     	}else {
-    		sst = 6.2 / 100 * employee.salary;
+    		sst = 6.2 / 100.0 * employee.salary;
     		System.out.println(sst);
     		return sst;
     	}
